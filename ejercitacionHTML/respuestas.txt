@@ -1,0 +1,16 @@
+1. ¿Cuál es la propiedad de CSS que se utiliza para cambiar el comportamiento de los elementos en un contenedor, permitiendo un diseño flexible y eficiente?
+Rta: Las propiedades son el display, position, float, clear, z-index, box-sizing y visibility
+
+2. ¿Cuál es la propiedad de CSS que permite definir el espacio entre los elementos hijos dentro de un contenedor flex o grid?
+Rta: La propiedad es Flexbox.
+
+3. ¿Cuál es la diferencia entre justify-content y align-items en un contenedor flex?
+Rta: justify-content es para lo horizontal y align-items lo vertical.
+
+4. ¿Cuál es la propiedad de CSS que se utiliza para definir el tamaño de las filas y columnas en un contenedor grid?
+Rta: Las propiedades son display:grid/inline-grid, grid-template-columns/grid-template-rows, row-gap/column-gap y grid-gap.
+
+5. Describe la diferencia principal entre display: flex y display: grid en CSS.
+Rta: La diferencia es que con display: flex puedes manejar 1 dimension y con displar: grid manejas 2 domensiones.
+
+6. ¿Cómo se alinean los elementos hijos dentro de un contenedor flex utilizando CSS?
