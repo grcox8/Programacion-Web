@@ -1,0 +1,23 @@
+.alinea{
+    background-color: rgb(105, 79, 129);
+    margin: 100px;
+    padding: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cabeza{
+    background-color: rgb(148, 201, 94);
+    height: 200px;
+    display: flex;
+    justify-content: end;
+}
+
+.pie{
+    background-color: rgb(148, 201, 94);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
