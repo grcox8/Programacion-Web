@@ -1,0 +1,23 @@
+.borde{
+    border: 1px solid #43ecde ;
+    background-color: #d5ec97;
+    color: blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.fondo{
+    background-color: aqua;
+}
+
+.alineamiento{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px; 
+    grid-auto-rows: auto;
+}
