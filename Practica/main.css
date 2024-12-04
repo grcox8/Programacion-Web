@@ -1,23 +1,37 @@
-.alinea{
-    background-color: rgb(105, 79, 129);
-    margin: 100px;
-    padding: 100px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.center {
+  background-color: rgb(105, 79, 129);
+  margin: 100px;
+  padding: 30px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 5px solid rgb(60, 45, 75);
 }
 
-.cabeza{
-    background-color: rgb(148, 201, 94);
-    height: 200px;
-    display: flex;
-    justify-content: end;
+.align-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.pie{
-    background-color: rgb(148, 201, 94);
-    height: 150px;
-    display: flex;
-    justify-content: space-around;
+.form-alinear {
+  display: flex;
+  justify-content: center;
+}
+
+.up {
+  background-color: rgb(148, 201, 94);
+  height: 100px;
+  display: flex;
+}
+
+.down {
+  background-color: rgb(148, 201, 94);
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+}
+body {
+  margin: 0;
 }
