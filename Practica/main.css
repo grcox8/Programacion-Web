@@ -2,7 +2,7 @@
   background-color: rgb(105, 79, 129);
   margin: 100px;
   padding: 30px;
-  width: 500px;
+  width: 400px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -20,13 +20,13 @@
   justify-content: center;
 }
 
-.up {
+.cabeza {
   background-color: rgb(148, 201, 94);
   height: 100px;
   display: flex;
 }
 
-.down {
+.pie {
   background-color: rgb(148, 201, 94);
   height: 75px;
   display: flex;
