@@ -21,16 +21,24 @@
 }
 
 .cabeza {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: rgb(148, 201, 94);
   height: 100px;
   display: flex;
 }
 
 .pie {
-  background-color: rgb(148, 201, 94);
-  height: 75px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  background-color: rgb(148, 201, 94);
+  height: 75px;
+}
+.gato{
+  display: flex;
+  align-items: center;
 }
 body {
   margin: 0;
