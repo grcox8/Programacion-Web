@@ -8,11 +8,20 @@ import Footer from "./components/Footer";
 
 function App() {
   //react es un framework, orientado a componentes.
+
+  const arr = [1,2,3]
   return (
     <>
       <Header />
       <h1>Este es el titulo de la pagina</h1>
       <Footer />
+      {arr.map((item, index)=> {
+        return(
+          <div key={index}>
+            <p>este es el item{item}, esta es la posicion {index}</p>
+          </div>
+        )
+      })}
     </>
   );
 }
