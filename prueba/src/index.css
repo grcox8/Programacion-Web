@@ -54,6 +54,15 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.borde{
+  border: 2px white solid;
+  border-radius: 10px;
+  padding: 5px; /*el margin es el espacio del elemento hacia adentro*/
+  margin: 5px; /*el margin es el espacio del elemento hacia afuera*/
+  background-color: white;
+  color: black;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
